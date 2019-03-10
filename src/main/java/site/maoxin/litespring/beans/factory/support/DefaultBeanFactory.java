@@ -65,6 +65,9 @@ public class DefaultBeanFactory implements BeanFactory  {
         return this.beanDefinitionMap.get(beanID);
     }
 
+    /**
+     * 通过beanId来生成对象
+     * */
     public Object getBean(String beanId) {
         BeanDefinition beanDefinition = this.getBeanDefinition(beanId);
         if (beanDefinition==null)

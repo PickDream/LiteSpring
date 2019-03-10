@@ -1,2 +1,5 @@
 # LiteSpring
-一个简单的Spring框架的实现
+
+liteSpring 旨在通过写一个类似Spring框架的过程去理解Spring本身加深对设计模式的理解
+
+

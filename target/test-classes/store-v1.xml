@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="petStore"
+          class="site.maoxin.litespring.service.v1.PetStoreService">
+    </bean>
+</beans>

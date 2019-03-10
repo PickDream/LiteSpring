@@ -15,8 +15,13 @@ import static org.junit.Assert.assertNotNull;
 public class BeanFactoryTest {
     @Test
     public void testGetBean(){
-
+        //获取定义
         BeanFactory factory = new DefaultBeanFactory("store-v1.xml");
+
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+
+        reader.loadBeanDefinitions("store-v1.xml");
+
 
         BeanDefinition bd = factory.getBeanDefinition("petStore");
 
