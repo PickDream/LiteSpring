@@ -7,6 +7,7 @@ import site.maoxin.litespring.beans.factory.BeanCreationException;
 import site.maoxin.litespring.beans.factory.BeanDefinitionStoreException;
 import site.maoxin.litespring.beans.factory.BeanFactory;
 import site.maoxin.litespring.beans.factory.support.DefaultBeanFactory;
+import site.maoxin.litespring.beans.factory.xml.XmlBeanDefinitionReader;
 import site.maoxin.litespring.service.v1.PetStoreService;
 
 import static org.junit.Assert.assertEquals;
@@ -16,7 +17,7 @@ public class BeanFactoryTest {
     @Test
     public void testGetBean(){
         //获取定义
-        BeanFactory factory = new DefaultBeanFactory("store-v1.xml");
+        DefaultBeanFactory factory = new DefaultBeanFactory();
 
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
 
@@ -34,7 +35,9 @@ public class BeanFactoryTest {
 
     @Test
     public void testInvalidBean(){
-        BeanFactory factory = new DefaultBeanFactory("store-v1.xml");
+        DefaultBeanFactory factory = new DefaultBeanFactory();
+        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+        reader.loadBeanDefinitions("store-v1.xml");
         try{
             factory.getBean("invalidBean");
         }catch (BeanCreationException e){
@@ -46,7 +49,9 @@ public class BeanFactoryTest {
     @Test
     public void testInvalidXML(){
         try{
-            BeanFactory factory = new DefaultBeanFactory("???.xml");
+            DefaultBeanFactory factory = new DefaultBeanFactory();
+            XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
+            reader.loadBeanDefinitions("xxx.xml");
         }catch (BeanDefinitionStoreException e){
             return;
         }

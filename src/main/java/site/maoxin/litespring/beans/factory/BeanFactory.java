@@ -7,7 +7,5 @@ import site.maoxin.litespring.beans.*;
  * */
 public interface BeanFactory {
 
-    BeanDefinition getBeanDefinition(String petStore);
-
-    Object getBean(String petStore);
+    Object getBean(String beanId);
 }

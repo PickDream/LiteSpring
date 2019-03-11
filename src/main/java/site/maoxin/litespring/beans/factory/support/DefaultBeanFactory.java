@@ -17,7 +17,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 //解析XML文件
-public class DefaultBeanFactory implements BeanFactory  {
+public class DefaultBeanFactory implements BeanFactory,BeanDefinitionRegistry {
 
     public static final String ID_ATTRIBUTE = "id";
 
@@ -26,43 +26,14 @@ public class DefaultBeanFactory implements BeanFactory  {
     //使用线程安全的Map
     private final Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
 
-    public DefaultBeanFactory(String configFile) {
-        loadbeanDefinition(configFile);
-    }
-
-    private void loadbeanDefinition(String configFile){
-        InputStream is = null;
-        //得到IO流，来加载对应的资源
-        try {
-            ClassLoader cl = ClassUtils.getDefaultClassLoader();
-            is = cl.getResourceAsStream(configFile);
-            SAXReader reader = new SAXReader();
-            Document document = reader.read(is);
-            Element root = document.getRootElement();
-            Iterator<Element> iter = root.elementIterator();
-            while (iter.hasNext()){
-                Element ele = iter.next();
-                String id = ele.attributeValue(ID_ATTRIBUTE);
-                String beanClassName = ele.attributeValue(CLASS_ATTRIBUTE);
-                BeanDefinition beanDefinition = new GenericBeanDefinition(id,beanClassName);
-                this.beanDefinitionMap.put(id,beanDefinition);
-            }
-
-        } catch (DocumentException e) {
-            throw new BeanDefinitionStoreException("IOException parsing XML Document");
-        }finally {
-            if (is!=null){
-                try {
-                    is.close();
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        }
-    }
-
+    @Override
     public BeanDefinition getBeanDefinition(String beanID) {
         return this.beanDefinitionMap.get(beanID);
+    }
+
+    @Override
+    public void registerBeanDefinition(String beanId, BeanDefinition bd) {
+        this.beanDefinitionMap.put(beanId,bd);
     }
 
     /**
