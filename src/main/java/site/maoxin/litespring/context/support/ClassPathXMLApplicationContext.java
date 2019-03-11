@@ -4,6 +4,8 @@ import site.maoxin.litespring.beans.factory.BeanFactory;
 import site.maoxin.litespring.beans.factory.support.DefaultBeanFactory;
 import site.maoxin.litespring.beans.factory.xml.XmlBeanDefinitionReader;
 import site.maoxin.litespring.context.ApplicationContext;
+import site.maoxin.litespring.core.io.ClassPathResource;
+import site.maoxin.litespring.core.io.Resource;
 
 /**
  * @author maoxin
@@ -15,7 +17,8 @@ public class ClassPathXMLApplicationContext implements ApplicationContext {
     public ClassPathXMLApplicationContext(String configFile) {
         factory = new DefaultBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
-        reader.loadBeanDefinitions(configFile);
+        Resource resource = new ClassPathResource(configFile);
+        reader.loadBeanDefinitions(resource);
     }
 
     @Override
