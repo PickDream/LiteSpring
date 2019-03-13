@@ -1,27 +1,17 @@
 package site.maoxin.litespring.beans.factory.support;
 
-import org.dom4j.Document;
-import org.dom4j.DocumentException;
-import org.dom4j.Element;
-import org.dom4j.io.SAXReader;
 import site.maoxin.litespring.beans.BeanDefinition;
 import site.maoxin.litespring.beans.factory.BeanCreationException;
-import site.maoxin.litespring.beans.factory.BeanDefinitionStoreException;
-import site.maoxin.litespring.beans.factory.BeanFactory;
+import site.maoxin.litespring.beans.factory.config.ConfigurableBeanFactory;
 import site.maoxin.util.ClassUtils;
 
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Iterator;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 //解析XML文件
-public class DefaultBeanFactory implements BeanFactory,BeanDefinitionRegistry {
+public class DefaultBeanFactory extends DefaultSingletonBeanRegistry implements ConfigurableBeanFactory,BeanDefinitionRegistry {
 
-    public static final String ID_ATTRIBUTE = "id";
-
-    public static final String CLASS_ATTRIBUTE = "class";
+    private ClassLoader classLoader;
 
     //使用线程安全的Map
     private final Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
@@ -31,6 +21,9 @@ public class DefaultBeanFactory implements BeanFactory,BeanDefinitionRegistry {
         return this.beanDefinitionMap.get(beanID);
     }
 
+    /**
+     * 外部注册XMLBeanDefinitionReader开放的接口
+     * */
     @Override
     public void registerBeanDefinition(String beanId, BeanDefinition bd) {
         this.beanDefinitionMap.put(beanId,bd);
@@ -40,21 +33,40 @@ public class DefaultBeanFactory implements BeanFactory,BeanDefinitionRegistry {
      * 通过beanId来生成对象
      * */
     public Object getBean(String beanId) {
-        BeanDefinition beanDefinition = this.getBeanDefinition(beanId);
-        if (beanDefinition==null)
+        BeanDefinition bd = this.getBeanDefinition(beanId);
+        if (bd==null)
             throw new BeanCreationException("Bean Definition does not exist");
-        ClassLoader cl = ClassUtils.getDefaultClassLoader();
-        String beanClassName = beanDefinition.getBeanClassName();
-        try {
-            Class<?> clazz = cl.loadClass(beanClassName);
-            return clazz.newInstance();
-        } catch (ClassNotFoundException e) {
-            e.printStackTrace();
-        } catch (IllegalAccessException e) {
-            e.printStackTrace();
-        } catch (InstantiationException e) {
-            e.printStackTrace();
+        if (bd.isSignleton()){
+            Object bean = this.getSignelton(beanId);
+            if (bean==null){
+                bean = createBean(bd);
+                this.registerSingleton(beanId,bean);
+            }
+            return bean;
         }
-        return null;
+        return createBean(bd);
+    }
+
+    private Object createBean(BeanDefinition bd){
+        ClassLoader cl = this.getClassLoader();
+        String beanClassName = bd.getBeanClassName();
+        try {
+            Class<?> clz = cl.loadClass(beanClassName);
+            return clz.newInstance();
+        } catch (ClassNotFoundException|IllegalAccessException|InstantiationException e) {
+            throw new BeanCreationException("create bean for "+beanClassName+" failed",e);
+        }
+    }
+    @Override
+    public void setClassLoader(ClassLoader classLoader) {
+        this.classLoader = classLoader;
+    }
+
+    @Override
+    public ClassLoader getClassLoader() {
+        if (classLoader==null){
+            classLoader = ClassUtils.getDefaultClassLoader();
+        }
+        return classLoader;
     }
 }

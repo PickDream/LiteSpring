@@ -1,5 +1,7 @@
 package site.maoxin.litespring.core.io;
 
+import site.maoxin.util.Assert;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,6 +18,7 @@ public class FileSystemResource implements Resource {
     private File file;
 
     public FileSystemResource(String filePath){
+        Assert.notNull(filePath,"传入路径不能为空!");
         this.path = filePath;
         this.file = new File(filePath);
     }

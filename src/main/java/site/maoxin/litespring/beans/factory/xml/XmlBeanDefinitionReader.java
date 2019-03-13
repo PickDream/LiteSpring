@@ -9,7 +9,6 @@ import site.maoxin.litespring.beans.factory.BeanDefinitionStoreException;
 import site.maoxin.litespring.beans.factory.support.BeanDefinitionRegistry;
 import site.maoxin.litespring.beans.factory.support.GenericBeanDefinition;
 import site.maoxin.litespring.core.io.Resource;
-import site.maoxin.util.ClassUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -24,6 +23,8 @@ public class XmlBeanDefinitionReader  {
     public static final String ID_ATTRIBUTE = "id";
 
     public static final String CLASS_ATTRIBUTE = "class";
+
+    public static final String SCOPE_ATTRIBUTE = "scope";
 
     BeanDefinitionRegistry registry;
 
@@ -44,7 +45,10 @@ public class XmlBeanDefinitionReader  {
                 Element ele = iter.next();
                 String id = ele.attributeValue(ID_ATTRIBUTE);
                 String beanClassName = ele.attributeValue(CLASS_ATTRIBUTE);
+                String scope = ele.attributeValue(SCOPE_ATTRIBUTE);
                 BeanDefinition beanDefinition = new GenericBeanDefinition(id,beanClassName);
+                beanDefinition.setScope(scope);
+                //注册
                 registry.registerBeanDefinition(id,beanDefinition);
             }
 
