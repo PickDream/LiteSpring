@@ -1,6 +1,8 @@
 package site.maoxin.litespring.beans;
 
 
+import java.util.List;
+
 /**
  * Bean对象基本接口
  * */
@@ -20,4 +22,7 @@ public interface BeanDefinition {
     boolean isPrototype();
 
     void setScope(String scope);
+
+    List<PropertyValue> getPropertyValues();
+
 }

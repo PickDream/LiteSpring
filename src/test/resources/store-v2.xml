@@ -9,7 +9,17 @@
         http://www.springframework.org/schema/context/spring-context.xsd
         http://www.springframework.org/schema/mvc
         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+
+    <bean id="itemDao" class="site.maoxin.litespring.dao.v2.ItemDao">
+    </bean>
+    <bean id="accountDao" class="site.maoxin.litespring.dao.v2.AccountDao">
+
+    </bean>
     <bean id="petStore"
-          class="site.maoxin.litespring.service.v1.PetStoreService">
+          class="site.maoxin.litespring.service.v2.PetStoreServiceV2">
+        <property name="accountDao" ref="accountDao"/>
+        <property name="itemDao" ref="itemDao"/>
+        <property name="owner" value="maoxin"/>
+        <property name="version"  value="2"/>
     </bean>
 </beans>
