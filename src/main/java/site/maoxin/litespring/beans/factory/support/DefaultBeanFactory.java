@@ -102,7 +102,14 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry implements 
             e.printStackTrace();
         }
     }
+    /**
+     * 创建的时候先看是否满足构造器注入
+     * */
     private Object instantiateBean(BeanDefinition bd){
+        if (bd.hasConstructorArgumentValues()){
+            ConstructorResolver constructorResolver = new ConstructorResolver(this);
+            return constructorResolver.autowireConstructor(bd);
+        }
         ClassLoader cl = this.getClassLoader();
         String beanClassName = bd.getBeanClassName();
         try {

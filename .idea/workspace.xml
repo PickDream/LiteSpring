@@ -1,44 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" line="54" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" line="56" />
     <bookmark url="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" line="95" />
     <bookmark url="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/ApplicationContextTestV2.java" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a43a14c-cae7-4a66-bc80-e98287fa65af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/SimpleTypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/TypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/TypeMismatchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/RuntimeBeanReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/TypedStringValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionValueResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/propertyeditors/CustomBooleanEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/propertyeditors/CustomNumberEditor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/util/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/util/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/dao/v2/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/dao/v2/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v2/PetStoreServiceV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/ApplicationContextTestV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/BeanDefinitionTestV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/BeanDefinitionValueResolverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/CustomBooleanEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/CustomNumberEditorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/TypeConverterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/V2AllTestSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/store-v2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/ConstructorArgument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/ConstructorResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/AccountDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/ItemDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/PetStoreService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ApplicationContextTestV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/BeanDefinitionTestV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ConstructorResolverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/V3AllTestSuit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/store-v3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/util/ClassUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/util/ClassUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/store-v1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/store-v1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/store-v1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/store-v1.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,50 +49,49 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/propertyeditors/CustomNumberEditor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1307">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="114" column="88" selection-start-line="114" selection-start-column="88" selection-end-line="114" selection-end-column="88" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
+            <state relative-caret-position="-208">
+              <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1159#1160#0" expanded="true" />
-                <element signature="e#1212#1213#0" expanded="true" />
-                <element signature="e#3835#3836#0" expanded="true" />
-                <element signature="e#3881#3882#0" expanded="true" />
+                <element signature="e#4444#4445#0" expanded="true" />
+                <element signature="e#4490#4491#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/ApplicationContextTestV2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="37" />
+            <state relative-caret-position="208">
+              <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1688#1689#0" expanded="true" />
+                <element signature="e#1718#1719#0" expanded="true" />
+                <element signature="e#1785#1786#0" expanded="true" />
+                <element signature="e#1813#1814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/ConstructorResolver.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,10 +100,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/V1AllTestSuit.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionValueResolver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="651">
+              <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ApplicationContextTestV3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="18" column="61" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/SimpleTypeConverter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/V3AllTestSuit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -128,59 +148,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/V2AllTestSuit.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v2/PetStoreServiceV2.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#505#506#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/TypeConverterTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/TypeConverter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/TypeMismatchException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="45" selection-end-line="45" />
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -201,18 +184,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/ResourceTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/BeanFactoryTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/ApplicationContextTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/util/AssertUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/util/Assert.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/core/io/FileSystemResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/FileSystemXmlApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/ConfigurableBeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/ConfigurableBeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/ConfigurableBeanFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/ApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/AbstractApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/ClassPathXMLApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/SingletonBeanRegistry.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/BeanScopeTest.java" />
@@ -223,8 +194,6 @@
         <option value="$PROJECT_DIR$/src/test/resources/store-v2.xml" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/PropertyValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/PropertyValue.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/RuntimeBeanReference.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/util/StringUtils.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -236,8 +205,6 @@
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/RuntimeBeanReference.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinition.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/BeanDefinitionValueResolverTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionValueResolver.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/propertyeditors/CustomBooleanEditor.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/CustomBooleanEditorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/CustomNumberEditorTest.java" />
@@ -248,10 +215,26 @@
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/util/ClassUtils.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/SimpleTypeConverter.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/TypeConverterTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v2/PetStoreServiceV2.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/ApplicationContextTestV2.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/V2AllTestSuit.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/store-v3.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/ItemDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/AccountDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/PetStoreService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/ConstructorArgument.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/BeanDefinitionTestV3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionValueResolver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ConstructorResolverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ApplicationContextTestV3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/ConstructorResolver.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" />
+        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/V3AllTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java" />
       </list>
     </option>
   </component>
@@ -263,10 +246,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="55" />
-    <option name="y" value="67" />
+    <option name="x" value="-111" />
+    <option name="y" value="31" />
     <option name="width" value="1559" />
-    <option name="height" value="978" />
+    <option name="height" value="976" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -276,8 +259,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -361,7 +344,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="maoxin" type="462c0819:PsiDirectoryNode" />
               <item name="litespring" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="beans" type="462c0819:PsiDirectoryNode" />
+              <item name="propertyeditors" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="litespring" type="b2602c69:ProjectViewProjectNode" />
@@ -400,26 +384,7 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="litespring" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="litespring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiteSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="litespring" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="litespring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LiteSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="litespring" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="litespring" type="b2602c69:ProjectViewProjectNode" />
@@ -449,6 +414,16 @@
               <item name="litespring" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="v2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="litespring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LiteSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="litespring" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="v3" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="litespring" type="b2602c69:ProjectViewProjectNode" />
@@ -497,78 +472,78 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.V2AllTestSuit">
-    <configuration name="ApplicationContextTestV2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllTests">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="litespring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.maoxin.litespring.test.v2.*" />
+          <option name="PATTERN" value="site.maoxin.litespring.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v2" />
-      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v2.ApplicationContextTestV2" />
+      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test" />
+      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.AllTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomNumberEditorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextTestV3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="litespring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.maoxin.litespring.test.v2.*" />
+          <option name="PATTERN" value="site.maoxin.litespring.test.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v2" />
-      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v2.CustomNumberEditorTest" />
+      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v3" />
+      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v3.ApplicationContextTestV3" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeConverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ApplicationContextTestV3.testGetBeanProperty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="litespring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.maoxin.litespring.test.v2.*" />
+          <option name="PATTERN" value="site.maoxin.litespring.test.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v2" />
-      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v2.TypeConverterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TypeConverterTest.testConvertStringToInt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="litespring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="site.maoxin.litespring.test.v2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v2" />
-      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v2.TypeConverterTest" />
-      <option name="METHOD_NAME" value="testConvertStringToInt" />
+      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v3" />
+      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v3.ApplicationContextTestV3" />
+      <option name="METHOD_NAME" value="testGetBeanProperty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="V2AllTestSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="V3AllTestSuit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="litespring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="site.maoxin.litespring.test.v2.*" />
+          <option name="PATTERN" value="site.maoxin.litespring.test.v3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v2" />
-      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v2.V2AllTestSuit" />
+      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v3" />
+      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v3.V3AllTestSuit" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="V3AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="litespring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="site.maoxin.litespring.test.v3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="site.maoxin.litespring.test.v3" />
+      <option name="MAIN_CLASS_NAME" value="site.maoxin.litespring.test.v3.V3AllTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -576,11 +551,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.V2AllTestSuit" />
-        <item itemvalue="JUnit.ApplicationContextTestV2" />
-        <item itemvalue="JUnit.TypeConverterTest" />
-        <item itemvalue="JUnit.TypeConverterTest.testConvertStringToInt" />
-        <item itemvalue="JUnit.CustomNumberEditorTest" />
+        <item itemvalue="JUnit.AllTests" />
+        <item itemvalue="JUnit.V3AllTestSuit" />
+        <item itemvalue="JUnit.V3AllTests" />
+        <item itemvalue="JUnit.ApplicationContextTestV3" />
+        <item itemvalue="JUnit.ApplicationContextTestV3.testGetBeanProperty" />
       </list>
     </recent_temporary>
   </component>
@@ -612,44 +587,45 @@
       <workItem from="1553131546862" duration="5114000" />
       <workItem from="1553180302286" duration="597000" />
       <workItem from="1553341562122" duration="55000" />
-      <workItem from="1553410715170" duration="9609000" />
+      <workItem from="1553410715170" duration="10667000" />
+      <workItem from="1553474287034" duration="8304000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomBooleanEditorTest_testConvertStringToBoolean - 2019.03.24 at 15h 53m 41s.xml">
-      <configuration name="CustomBooleanEditorTest.testConvertStringToBoolean" configurationId="JUnit" />
+    <history-entry file="BeanDefinitionTestV3_testConstructorArgument - 2019.03.25 at 09h 26m 40s.xml">
+      <configuration name="BeanDefinitionTestV3.testConstructorArgument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CustomNumberEditorTest - 2019.03.24 at 16h 05m 51s.xml">
-      <configuration name="CustomNumberEditorTest" configurationId="JUnit" />
+    <history-entry file="BeanDefinitionTestV3_testConstructorArgument - 2019.03.25 at 09h 27m 29s.xml">
+      <configuration name="BeanDefinitionTestV3.testConstructorArgument" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TypeConverterTest_testConvertStringToInt - 2019.03.24 at 17h 08m 30s.xml">
-      <configuration name="TypeConverterTest.testConvertStringToInt" configurationId="JUnit" />
+    <history-entry file="ConstructorResolverTest_testAutowireConstructor - 2019.03.25 at 10h 28m 32s.xml">
+      <configuration name="ConstructorResolverTest.testAutowireConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TypeConverterTest_testConvertStringToInt - 2019.03.24 at 17h 09m 55s.xml">
-      <configuration name="TypeConverterTest.testConvertStringToInt" configurationId="JUnit" />
+    <history-entry file="ConstructorResolverTest_testAutowireConstructor - 2019.03.25 at 10h 28m 42s.xml">
+      <configuration name="ConstructorResolverTest.testAutowireConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TypeConverterTest_testConvertStringToInt - 2019.03.24 at 17h 11m 43s.xml">
-      <configuration name="TypeConverterTest.testConvertStringToInt" configurationId="JUnit" />
+    <history-entry file="ApplicationContextTestV3_testGetBeanProperty - 2019.03.25 at 10h 35m 58s.xml">
+      <configuration name="ApplicationContextTestV3.testGetBeanProperty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TypeConverterTest_testConvertStringToInt - 2019.03.24 at 17h 19m 03s.xml">
-      <configuration name="TypeConverterTest.testConvertStringToInt" configurationId="JUnit" />
+    <history-entry file="ApplicationContextTestV3_testGetBeanProperty - 2019.03.25 at 10h 36m 08s.xml">
+      <configuration name="ApplicationContextTestV3.testGetBeanProperty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TypeConverterTest_testConvertStringToInt - 2019.03.24 at 17h 19m 46s.xml">
-      <configuration name="TypeConverterTest.testConvertStringToInt" configurationId="JUnit" />
+    <history-entry file="ApplicationContextTestV3_testGetBeanProperty - 2019.03.25 at 10h 50m 50s.xml">
+      <configuration name="ApplicationContextTestV3.testGetBeanProperty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TypeConverterTest - 2019.03.24 at 17h 20m 37s.xml">
-      <configuration name="TypeConverterTest" configurationId="JUnit" />
+    <history-entry file="ApplicationContextTestV3 - 2019.03.25 at 10h 57m 16s.xml">
+      <configuration name="ApplicationContextTestV3" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ApplicationContextTestV2 - 2019.03.24 at 17h 35m 54s.xml">
-      <configuration name="ApplicationContextTestV2" configurationId="JUnit" />
+    <history-entry file="V3AllTests - 2019.03.25 at 10h 59m 43s.xml">
+      <configuration name="V3AllTests" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="V2AllTestSuit - 2019.03.24 at 17h 39m 58s.xml">
-      <configuration name="V2AllTestSuit" configurationId="JUnit" />
+    <history-entry file="AllTests - 2019.03.25 at 11h 03m 24s.xml">
+      <configuration name="AllTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74314000" />
+    <option name="totallyTimeSpent" value="83676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,16 +640,16 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.63559324" visible="true" weight="0.23737916" />
-      <window_info id="Structure" order="1" sideWeight="0.3644068" side_tool="true" visible="true" weight="0.23737916" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7185535" visible="true" weight="0.30236304" />
+      <window_info id="Structure" order="1" sideWeight="0.28144655" side_tool="true" weight="0.28839958" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32997763" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8711063" visible="true" weight="0.60402685" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181525" weight="0.41275167" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32965687" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8711063" visible="true" weight="0.28747204" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181525" weight="0.4522059" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32997763" />
@@ -684,7 +660,7 @@
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3277405" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Console" order="13" sideWeight="0.12889366" side_tool="true" weight="0.34228188" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32997763" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.32965687" />
       <window_info anchor="bottom" id="JRebel Executor" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -699,159 +675,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/SimpleTypeConverter.java</url>
-          <line>30</line>
-          <properties />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v2.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v1/PetStoreService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/ApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/util/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultSingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1057#1058#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanDefinitionStoreException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/jre/lib/rt.jar!/com/sun/beans/WeakCache.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/AbstractApplicationContext.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/SingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-            <element signature="e#1387#1388#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/TypedStringValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/beans/PropertyDescriptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/BeanScopeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -886,13 +710,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/RuntimeBeanReference.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -904,16 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionValueResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/BeanDefinitionValueResolverTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -921,20 +728,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/store-v2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/store-v1.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -974,7 +767,7 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="114.5" y="105.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="115.0" y="106.0" />
           <SelectedNodes />
           <Categories />
           <SCOPE>All</SCOPE>
@@ -1091,33 +884,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/SimpleTypeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/TypeMismatchException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="45" selection-end-line="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/TypeConverter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/propertyeditors/CustomNumberEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1307">
+        <state relative-caret-position="1534">
           <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1125,34 +894,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/ApplicationContextTestV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="114" column="88" selection-start-line="114" selection-start-column="88" selection-end-line="114" selection-end-column="88" />
+        <state>
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/V1AllTestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="97" column="21" lean-forward="true" selection-start-line="97" selection-start-column="21" selection-end-line="97" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1159#1160#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#3835#3836#0" expanded="true" />
-            <element signature="e#3881#3882#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/TypeConverterTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        <state relative-caret-position="390">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1161,7 +916,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v2/PetStoreServiceV2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
+        <state relative-caret-position="416">
           <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1173,30 +928,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/ApplicationContextTestV2.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/TypeConverterTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="37" />
+        <state relative-caret-position="858">
+          <caret line="39" column="9" lean-forward="true" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/V1AllTestSuit.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/TypeConverter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="208">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/com/sun/corba/se/impl/io/TypeMismatchException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="45" selection-end-line="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v2/V2AllTestSuit.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/store-v2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="8" lean-forward="true" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/ItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/PetStoreService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#462#463#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#626#627#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#772#773#0" expanded="true" />
+            <element signature="e#802#803#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/ClassPathXMLApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/store-v3.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/BeanDefinitionTestV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/ConstructorArgument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1300">
+          <caret line="60" column="6" lean-forward="true" selection-start-line="60" selection-start-column="6" selection-end-line="60" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#ValueHolder#0;class#ConstructorArgument#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeansException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="114" column="21" lean-forward="true" selection-start-line="114" selection-start-column="21" selection-end-line="114" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/ConfigurableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/store-v1.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ConstructorResolverTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="30" column="66" selection-start-line="30" selection-start-column="66" selection-end-line="30" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="18" lean-forward="true" selection-start-column="18" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1688#1689#0" expanded="true" />
+            <element signature="e#1718#1719#0" expanded="true" />
+            <element signature="e#1785#1786#0" expanded="true" />
+            <element signature="e#1813#1814#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/ConstructorResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="117" column="33" selection-start-line="117" selection-start-column="33" selection-end-line="117" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/BeanDefinitionValueResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="105" column="23" selection-start-line="105" selection-start-column="23" selection-end-line="105" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#4444#4445#0" expanded="true" />
+            <element signature="e#4490#4491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ApplicationContextTestV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="18" column="61" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/SimpleTypeConverter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="47" column="5" lean-forward="true" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/V3AllTestSuit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

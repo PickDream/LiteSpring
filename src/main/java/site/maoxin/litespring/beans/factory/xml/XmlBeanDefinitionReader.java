@@ -7,6 +7,7 @@ import org.dom4j.DocumentException;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import site.maoxin.litespring.beans.BeanDefinition;
+import site.maoxin.litespring.beans.ConstructorArgument;
 import site.maoxin.litespring.beans.PropertyValue;
 import site.maoxin.litespring.beans.factory.BeanDefinitionStoreException;
 import site.maoxin.litespring.beans.factory.config.RuntimeBeanReference;
@@ -42,6 +43,10 @@ public class XmlBeanDefinitionReader  {
 
     public static final String NAME_ATTRIBUTE = "name";
 
+    public static final String CONSTRUCTOR_ARG_ELEMENT = "constructor-arg";
+
+    public static final String TYPE_ATTRIBUTE = "type";
+
     BeanDefinitionRegistry registry;
 
     public XmlBeanDefinitionReader(BeanDefinitionRegistry registry){
@@ -68,6 +73,8 @@ public class XmlBeanDefinitionReader  {
                 }
                 //解析Properties标签
                 parsePropertyElement(ele,beanDefinition);
+                //解析constructor-arg参数
+                parseConstructorArgElements(ele,beanDefinition);
                 //注册
                 registry.registerBeanDefinition(id,beanDefinition);
             }
@@ -83,6 +90,30 @@ public class XmlBeanDefinitionReader  {
                 }
             }
         }
+    }
+    public void parseConstructorArgElements(Element beanEle, BeanDefinition bd) {
+        Iterator iter = beanEle.elementIterator(CONSTRUCTOR_ARG_ELEMENT);
+        while(iter.hasNext()){
+            Element ele = (Element)iter.next();
+            parseConstructorArgElement(ele, bd);
+        }
+
+    }
+
+    public void parseConstructorArgElement(Element ele, BeanDefinition bd) {
+
+        String typeAttr = ele.attributeValue(TYPE_ATTRIBUTE);
+        String nameAttr = ele.attributeValue(NAME_ATTRIBUTE);
+        Object value = parsePropertyValue(ele, null);
+        ConstructorArgument.ValueHolder valueHolder = new ConstructorArgument.ValueHolder(value);
+        if (StringUtils.hasLength(typeAttr)) {
+            valueHolder.setType(typeAttr);
+        }
+        if (StringUtils.hasLength(nameAttr)) {
+            valueHolder.setName(nameAttr);
+        }
+        //将节点的值对象加入其中
+        bd.getConstructorArgument().addArgumentValue(valueHolder);
     }
 
     private void parsePropertyElement(Element ele, BeanDefinition beanDefinition) {
