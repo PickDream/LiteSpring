@@ -7,23 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4a43a14c-cae7-4a66-bc80-e98287fa65af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/ConstructorArgument.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/ConstructorResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/AccountDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/ItemDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/service/v3/PetStoreService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ApplicationContextTestV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/BeanDefinitionTestV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/ConstructorResolverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/V3AllTestSuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/store-v3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanCreationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/GenericBeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -147,7 +131,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="364">
@@ -159,11 +143,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/BeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="364">
+                <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -184,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/context/support/ClassPathXMLApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/config/SingletonBeanRegistry.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/BeanScopeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultSingletonBeanRegistry.java" />
@@ -235,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/main/java/site/maoxin/litespring/beans/factory/support/DefaultBeanFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v3/V3AllTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/AllTests.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -245,11 +232,11 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-111" />
-    <option name="y" value="31" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="198" />
+    <option name="y" value="33" />
     <option name="width" value="1559" />
-    <option name="height" value="976" />
+    <option name="height" value="978" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -588,7 +575,7 @@
       <workItem from="1553180302286" duration="597000" />
       <workItem from="1553341562122" duration="55000" />
       <workItem from="1553410715170" duration="10667000" />
-      <workItem from="1553474287034" duration="8304000" />
+      <workItem from="1553474287034" duration="8978000" />
     </task>
     <servers />
   </component>
@@ -625,7 +612,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83676000" />
+    <option name="totallyTimeSpent" value="84350000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -640,7 +627,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7185535" visible="true" weight="0.30236304" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7185535" visible="true" weight="0.21535982" />
       <window_info id="Structure" order="1" sideWeight="0.28144655" side_tool="true" weight="0.28839958" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="UI Designer" order="3" />
@@ -648,7 +635,7 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32965687" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.8711063" visible="true" weight="0.28747204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8711063" weight="0.28747204" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181525" weight="0.4522059" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -676,16 +663,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/site/maoxin/litespring/test/v1/BeanScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/beans/Introspector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1184,6 +1161,16 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="364">
+            <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
