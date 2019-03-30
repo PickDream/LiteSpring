@@ -30,4 +30,6 @@ public interface BeanDefinition {
     String getId();
 
     boolean hasConstructorArgumentValues();
+
+    void setBeanClassName(String beanClassName);
 }
