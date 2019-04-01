@@ -1,5 +1,6 @@
 package site.maoxin.litespring.context.annotation;
 
+import site.maoxin.litespring.beans.factory.annotation.AnnotatedBeanDefinition;
 import site.maoxin.litespring.beans.factory.support.GenericBeanDefinition;
 import site.maoxin.litespring.core.type.AnnotationMetadata;
 
@@ -8,7 +9,7 @@ import site.maoxin.litespring.core.type.AnnotationMetadata;
  * @ClassName ScannedGenericBeanDefinition
  * @date 3/30/2019
  */
-public class ScannedGenericBeanDefinition extends GenericBeanDefinition {
+public class ScannedGenericBeanDefinition extends GenericBeanDefinition implements AnnotatedBeanDefinition {
 
     private final AnnotationMetadata metadata;
 

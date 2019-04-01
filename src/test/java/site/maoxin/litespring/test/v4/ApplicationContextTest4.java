@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import site.maoxin.litespring.context.ApplicationContext;
 import site.maoxin.litespring.context.support.ClassPathXMLApplicationContext;
-import site.maoxin.litespring.service.v3.PetStoreService;
+import site.maoxin.litespring.service.v4.PetStoreService;
 
 /**
  * 顶层测试类
