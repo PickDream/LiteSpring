@@ -15,6 +15,8 @@ public class GenericBeanDefinition implements BeanDefinition {
 
     private String id;
     private String beanClassName;
+    //缓存Class对象
+    private Class<?> beanClass;
     private boolean singleton = true;
     private boolean prototype = false;
     private String scope = SCOPE_DEFAULT;
@@ -32,6 +34,30 @@ public class GenericBeanDefinition implements BeanDefinition {
 
     public String getBeanClassName() {
         return this.beanClassName;
+    }
+
+    public Class<?> getBeanClass() throws IllegalStateException {
+        if(this.beanClass == null){
+            throw new IllegalStateException(
+                    "Bean class name [" + this.getBeanClassName() + "] has not been resolved into an actual Class");
+        }
+        return this.beanClass;
+    }
+
+    @Override
+    public Class<?> resolveBeanClass(ClassLoader classLoader) throws ClassNotFoundException {
+        String className = getBeanClassName();
+        if (classLoader==null){
+            return null;
+        }
+        Class<?> resolvedClass = classLoader.loadClass(className);
+        this.beanClass = resolvedClass;
+        return resolvedClass;
+    }
+
+    @Override
+    public boolean hasBeanClass() {
+        return this.beanClass!=null;
     }
 
     @Override

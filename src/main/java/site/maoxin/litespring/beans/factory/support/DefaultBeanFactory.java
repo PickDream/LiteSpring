@@ -5,13 +5,17 @@ import site.maoxin.litespring.beans.PropertyValue;
 import site.maoxin.litespring.beans.SimpleTypeConverter;
 import site.maoxin.litespring.beans.TypeConverter;
 import site.maoxin.litespring.beans.factory.BeanCreationException;
+import site.maoxin.litespring.beans.factory.config.BeanPostProcessor;
 import site.maoxin.litespring.beans.factory.config.ConfigurableBeanFactory;
+import site.maoxin.litespring.beans.factory.config.DependencyDescriptor;
+import site.maoxin.litespring.beans.factory.config.InstantiationAwareBeanPostProcessor;
 import site.maoxin.util.ClassUtils;
 
 import java.beans.BeanInfo;
 import java.beans.IntrospectionException;
 import java.beans.Introspector;
 import java.beans.PropertyDescriptor;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -21,7 +25,10 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry implements 
 
     private ClassLoader classLoader;
 
+    private List<BeanPostProcessor> beanPostProcessors = new ArrayList<BeanPostProcessor>();
+
     //使用线程安全的Map
+    //维护的是一个ID，BeanDefinition的Map
     private final Map<String,BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<String, BeanDefinition>();
 
     @Override
@@ -65,6 +72,13 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry implements 
     }
 
     private void populateBean(Object bean,BeanDefinition bd){
+
+        for (BeanPostProcessor processor:this.getBeanPostProcessors()){
+            if (processor instanceof InstantiationAwareBeanPostProcessor){
+                ((InstantiationAwareBeanPostProcessor)processor).postProcessPropertyValues(bean,bd.getId());
+            }
+        }
+
         /**
          * 首先获取PropertyValue的List
          * 判断其是否为空，如果为空就结束
@@ -130,5 +144,43 @@ public class DefaultBeanFactory extends DefaultSingletonBeanRegistry implements 
             classLoader = ClassUtils.getDefaultClassLoader();
         }
         return classLoader;
+    }
+
+    @Override
+    public void addBeanPostProcessor(BeanPostProcessor postProcessor) {
+        this.beanPostProcessors.add(postProcessor);
+    }
+
+    @Override
+    public List<BeanPostProcessor> getBeanPostProcessors() {
+        return this.beanPostProcessors;
+    }
+
+    @Override
+    public Object resolveDependency(DependencyDescriptor descriptor) {
+
+        //获取到需要匹配的类型
+        Class<?> typeToMatch = descriptor.getDependencyType();
+
+        for (BeanDefinition bd:this.beanDefinitionMap.values()){
+            resolveBeanClass(bd);
+            Class<?> beanClass = bd.getBeanClass();
+            if (typeToMatch.isAssignableFrom(beanClass)){
+                return this.getBean(bd.getId());
+            }
+        }
+        return null;
+    }
+
+    public void resolveBeanClass(BeanDefinition bd) {
+        if(bd.hasBeanClass()){
+            return;
+        } else{
+            try {
+                bd.resolveBeanClass(this.getClassLoader());
+            } catch (ClassNotFoundException e) {
+                throw new RuntimeException("can't load class:"+bd.getBeanClassName());
+            }
+        }
     }
 }

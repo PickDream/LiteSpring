@@ -8,5 +8,6 @@ import site.maoxin.litespring.beans.factory.config.ConfigurableBeanFactory;
  * @ClassName ApplicationContext
  * @date 3/11/2019
  */
-public interface ApplicationContext extends ConfigurableBeanFactory {
+public interface ApplicationContext extends BeanFactory{
+
 }

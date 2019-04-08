@@ -1,5 +1,7 @@
 package site.maoxin.litespring.context.support;
 
+import site.maoxin.litespring.beans.factory.annotation.AutowiredAnnotationProcessor;
+import site.maoxin.litespring.beans.factory.config.ConfigurableBeanFactory;
 import site.maoxin.litespring.beans.factory.support.DefaultBeanFactory;
 import site.maoxin.litespring.beans.factory.xml.XmlBeanDefinitionReader;
 import site.maoxin.litespring.context.ApplicationContext;
@@ -19,19 +21,26 @@ public abstract class AbstractApplicationContext implements ApplicationContext {
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(factory);
         Resource resource = getResource(configFile);
         reader.loadBeanDefinitions(resource);
+        factory.setClassLoader(this.getClassLoader());
+        registerBeanPostProcessor(factory);
     }
     public Object getBean(String beanId){
         return factory.getBean(beanId);
     }
     protected abstract Resource getResource(String path);
 
-    @Override
     public void setClassLoader(ClassLoader classLoader) {
         this.factory.setClassLoader(classLoader);
     }
 
-    @Override
     public ClassLoader getClassLoader() {
         return this.factory.getClassLoader();
+    }
+
+    protected void registerBeanPostProcessor(ConfigurableBeanFactory factory){
+
+        AutowiredAnnotationProcessor processor = new AutowiredAnnotationProcessor();
+        processor.setBeanFactory(factory);
+        factory.addBeanPostProcessor(processor);
     }
 }
