@@ -1,0 +1,36 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+			http://www.springframework.org/schema/beans/spring-beans.xsd
+			http://www.springframework.org/schema/aop
+			http://www.springframework.org/schema/aop/spring-aop.xsd
+			http://www.springframework.org/schema/context
+			http://www.springframework.org/schema/context/spring-context.xsd">
+
+
+    <!--包扫描路径-->
+    <context:component-scan
+            base-package="site.maoxin.litespring.service.v5,site.maoxin.litespring.dao.v5">
+    </context:component-scan>
+
+    <bean id="tx" class="site.maoxin.litespring.tx.TransactionManager" />
+
+    <aop:config>
+
+        <aop:aspect ref="tx">
+
+            <!--指明切入点-->
+            <aop:pointcut id="placeOrder"
+                          expression="execution(* site.maoxin.litespring.service.v5.*.placeOrder(..))" />
+            <!--作用在切入点上-->
+            <aop:before pointcut-ref="placeOrder" method="start" />
+            <aop:after-returning pointcut-ref="placeOrder"	method="commit" />
+            <aop:after-throwing pointcut-ref="placeOrder" method = "rollback"/>
+
+
+        </aop:aspect>
+
+    </aop:config>
+
+</beans>

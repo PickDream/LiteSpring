@@ -2,6 +2,7 @@ package site.maoxin.litespring.test.v4;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;
+import site.maoxin.litespring.beans.factory.annotation.AutowiredAnnotationProcessor;
 import site.maoxin.litespring.core.type.classreading.MetadataReader;
 
 /**
@@ -17,7 +18,10 @@ import site.maoxin.litespring.core.type.classreading.MetadataReader;
         ClassReaderTest.class,
         MetadataReaderTest.class,
         PackageResourceLoaderTest.class,
-        XMLBeanDefinationReaderTest.class
+        XMLBeanDefinationReaderTest.class,
+        AutowiredAnnotationProcessorTest.class,
+        DependencyDescriptorTest.class,
+        InjectionMetedataTest.class
 })
 public class V4AllTestSuit {
 }
